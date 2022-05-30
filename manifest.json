@@ -1,0 +1,22 @@
+{
+  "name": "declarativeNetRequest extension",
+  "version": "1",
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "permissions": [
+    "*://*.google.com/*",
+    "*://*.abcd.com/*",
+    "*://*.example.com/*",
+    "https://*.xyz.com/*",
+    "*://*.headers.com/*",
+    "declarativeNetRequest"
+  ],
+  "manifest_version": 3
+}
